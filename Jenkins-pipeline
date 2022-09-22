@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout scm') {
+            steps {
+               git 'https://github.com/rayudu931/myweb.git'
+            }
+        }
+    }
+}
