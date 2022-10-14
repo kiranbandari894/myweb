@@ -89,7 +89,7 @@ pipeline{
 This Job ran 
 
 Thanks,
-DevOps Team""", subject: "${env.JOB_NAME} Ran", to: 'hari.kammana@gmail.com'
+DevOps Team""", subject: "${env.JOB_NAME} Ran", to: 'rbandari227@gmail.com'
 		}
 	}
 }
